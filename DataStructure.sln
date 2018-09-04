@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DataStructure", "DataStructure\DataStructure.vcxproj", "{FBF46E4F-FE48-4F85-A5CD-7A6373E96AFD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sort", "Sort", "{CB7D12D4-9C39-4844-9082-EC1BB8EE40C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBF46E4F-FE48-4F85-A5CD-7A6373E96AFD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FBF46E4F-FE48-4F85-A5CD-7A6373E96AFD}.Debug|Win32.Build.0 = Debug|Win32
+		{FBF46E4F-FE48-4F85-A5CD-7A6373E96AFD}.Release|Win32.ActiveCfg = Release|Win32
+		{FBF46E4F-FE48-4F85-A5CD-7A6373E96AFD}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
