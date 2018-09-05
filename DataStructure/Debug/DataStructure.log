@@ -1,0 +1,15 @@
+﻿빌드 시작: 2018-09-04 오후 11:34:32
+     1>2 노드의 "G:\개발\DataStructure\DataStructure\DataStructure.vcxproj" 프로젝트(Build 대상)입니다.
+     1>PrepareForBuild:
+         "G:\개발\DataStructure\Debug\" 디렉터리를 만들고 있습니다.
+         "Debug\DataStructure.tlog\" 디렉터리를 만들고 있습니다.
+       InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "Debug\DataStructure.tlog\unsuccessfulbuild"을(를) 만들고 있습니다.
+       FinalizeBuildStatus:
+         "Debug\DataStructure.tlog\unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "Debug\DataStructure.tlog\DataStructure.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"G:\개발\DataStructure\DataStructure\DataStructure.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:00.48
