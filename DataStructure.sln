@@ -11,7 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sort", "Sort", "{78B38DDA-D
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bubble", "Sort\Bubble\Bubble.vcxproj", "{4150C8AF-2BC2-4F36-BBE5-B0CDD114BC93}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Stack", "LinearStructure\Stack\Stack.vcxproj", "{C96E08CC-711F-4021-B3AC-CACF2D961E44}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ArrayStack", "LinearStructure\ArrayStack\ArrayStack.vcxproj", "{ABC9496A-68CB-44C7-B4FA-99C4E5666D26}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,16 +27,16 @@ Global
 		{4150C8AF-2BC2-4F36-BBE5-B0CDD114BC93}.Debug|Win32.Build.0 = Debug|Win32
 		{4150C8AF-2BC2-4F36-BBE5-B0CDD114BC93}.Release|Win32.ActiveCfg = Release|Win32
 		{4150C8AF-2BC2-4F36-BBE5-B0CDD114BC93}.Release|Win32.Build.0 = Release|Win32
-		{C96E08CC-711F-4021-B3AC-CACF2D961E44}.Debug|Win32.ActiveCfg = Debug|Win32
-		{C96E08CC-711F-4021-B3AC-CACF2D961E44}.Debug|Win32.Build.0 = Debug|Win32
-		{C96E08CC-711F-4021-B3AC-CACF2D961E44}.Release|Win32.ActiveCfg = Release|Win32
-		{C96E08CC-711F-4021-B3AC-CACF2D961E44}.Release|Win32.Build.0 = Release|Win32
+		{ABC9496A-68CB-44C7-B4FA-99C4E5666D26}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ABC9496A-68CB-44C7-B4FA-99C4E5666D26}.Debug|Win32.Build.0 = Debug|Win32
+		{ABC9496A-68CB-44C7-B4FA-99C4E5666D26}.Release|Win32.ActiveCfg = Release|Win32
+		{ABC9496A-68CB-44C7-B4FA-99C4E5666D26}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{4150C8AF-2BC2-4F36-BBE5-B0CDD114BC93} = {78B38DDA-D82F-42C4-8946-E23330A80E14}
-		{C96E08CC-711F-4021-B3AC-CACF2D961E44} = {D1A4F531-115E-4ED0-9967-058D7EBD2569}
+		{ABC9496A-68CB-44C7-B4FA-99C4E5666D26} = {D1A4F531-115E-4ED0-9967-058D7EBD2569}
 	EndGlobalSection
 EndGlobal
