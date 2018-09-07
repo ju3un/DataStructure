@@ -1,11 +1,11 @@
 #pragma once
 
-#include "Node.h"
+#include "../../DataStructure/Node.h"
 
 class Stack
 {
 public:
-	Stack() = delete;
+	Stack() = default;
 	Stack(unsigned int p_iCapacity);
 	~Stack();
 

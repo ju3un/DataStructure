@@ -10,6 +10,9 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Node.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{FBF46E4F-FE48-4F85-A5CD-7A6373E96AFD}</ProjectGuid>
     <RootNamespace>DataStructure</RootNamespace>
