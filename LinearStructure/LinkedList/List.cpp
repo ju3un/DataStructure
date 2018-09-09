@@ -51,29 +51,51 @@ void List::Add(int p_iIndex, int p_iData)
 
 }
 
+void List::Remove(int p_iIndex)
+{
+
+}
+
 unsigned int List::GetListSize()
 {
+	return 0;
 	//return m_iListSize;
 }
 
 /// TEST_CODE : Final이나 특정 index 노드의 주소를 찾기 위함 (기본 -1 : Final / 특정 노드 : index)
-LinkedNode* List::FindNode(int p_iIndex)
+LinkedNode* List::findNode(int p_iIndex)
 {
 	if ( m_pHeadNode != nullptr )
 	{
-		int iNowIndex = 0;
 		LinkedNode* pFindNode = m_pHeadNode;
 		
-		/// 만약 iNowIndex가 -1일 경우는 마지막까지
-		//while ( pFindNode->GetNextNode() != nullptr )
-		//{
-		//	pFindNode = pFindNode->GetNextNode();
-		//}
+		/// 만약 p_iIndex가 -1일 경우는 마지막까지
 		/// 아닌 경우에는 일단 iNowIndex와 p_iIndex 비교 
 		/// 근데 이 때 그 Index가 실제 존재하는 건지는 반드시 검사하는 코드가 존재해야 함
-
-
-
+		if ( p_iIndex == -1 )
+		{
+			while ( pFindNode->GetNextNode() != nullptr )
+			{
+				pFindNode = pFindNode->GetNextNode();
+			}
+		}
+		else
+		{
+			int iNowIndex = 0;
+			while ( iNowIndex <= p_iIndex )
+			{
+				if ( pFindNode->GetNextNode() != nullptr )
+				{
+					pFindNode = pFindNode->GetNextNode();
+					iNowIndex++;
+				}
+				else
+				{
+					pFindNode = nullptr;
+					break;
+				}
+			}
+		}
 		return pFindNode;
 	}
 	return nullptr;
