@@ -13,6 +13,7 @@ public:
 	void SetNextNode(LinkedNode* p_pNextNode);
 	LinkedNode* GetNextNode();
 
+	void RemoveNextNode();
 
 private:
 	LinkedNode* m_pNextNode = nullptr;

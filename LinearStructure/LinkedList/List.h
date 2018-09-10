@@ -19,10 +19,7 @@ public:
 private:
 	LinkedNode* m_pHeadNode = nullptr;
 
-	/// TEST_CODE
-	LinkedNode* findNode(int p_iIndex = -1);
-
-	//unsigned int m_iListSize = 0;
+	LinkedNode* findNode(int p_iIndex = -2);
 };
 
 /// 기능 완성 후 스마트 포인터로 수정!!!

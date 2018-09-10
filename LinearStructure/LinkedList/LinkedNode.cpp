@@ -25,3 +25,8 @@ LinkedNode* LinkedNode::GetNextNode()
 {
 	return m_pNextNode;
 }
+
+void LinkedNode::RemoveNextNode()
+{
+	m_pNextNode = nullptr;
+}
